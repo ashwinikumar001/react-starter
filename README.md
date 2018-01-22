@@ -1,11 +1,18 @@
 
+# Local Development
 ```bash
+$ cd project_root_directory
 $ npm install
-$ mkdir dist
-$ #npm run productionBuild
 $ npm start
 ```
 
+# Production Build
+```bash
+$ cd project_root_directory
+$ npm install
+$ mkdir dist
+$ npm run productionBuild
+```
 
 TODO
 * Language Support
@@ -14,4 +21,4 @@ TODO
 * Remote debugging using localstorage
 * Git hooks
 * ESLint
-
+* React-router + History support
