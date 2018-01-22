@@ -1,0 +1,39 @@
+{
+  "name": "react-starter-kit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node --max_old_space_size=4096 node_modules/webpack-dev-server/bin/webpack-dev-server.js --content-base ./dist --port 8000 --colors --history-api-fallback",
+    "preinstall": "npm prune",
+    "postinstall": "npm outdated || true",
+    "preproductionBuild": "rm -rvf dist/*",
+    "productionBuild": "NODE_ENV=production webpack --progress"
+  },
+  "dependencies": {
+    "babel-polyfill": "6.26.0",
+    "material-design-icons": "3.0.1",
+    "material-ui": "0.20.0",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-redux": "5.0.4",
+    "redux": "3.6.0",
+    "redux-logger": "3.0.1",
+    "react-css-modules": "4.7.1",
+    "react-router-dom": "4.2.2",
+    "redux-thunk": "2.2.0",
+    "superagent": "3.8.2",
+    "superagent-bluebird-promise": "4.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "copy-webpack-plugin": "4.3.1",
+    "css-loader": "0.28.8",
+    "extract-text-webpack-plugin": "3.0.2",
+    "if-loader": "1.0.2",
+    "react-scripts": "1.1.0",
+    "webpack": "3.10.0",
+    "webpack-dev-server": "2.11.0",
+    "webpack-livereload-plugin": "1.0.0"
+  }
+}

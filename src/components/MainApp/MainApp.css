@@ -1,0 +1,10 @@
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.mainArea {
+    display: flex;
+    position: relative;
+    margin: 30px auto auto;
+}

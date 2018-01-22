@@ -1,0 +1,10 @@
+.container {
+    position: relative;
+    height: 60px;
+}
+
+.loginText {
+    color: white;
+    font-size: 24px;
+    margin: 12px 13px 0 0;
+}
